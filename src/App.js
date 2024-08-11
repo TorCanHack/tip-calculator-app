@@ -86,7 +86,7 @@ function App() {
 
   return (
     <main className="bg-mainCyan border-t font-spaceMono h-full">
-      <img className='my-8 md:mt-44 lg:mt-20 m mx-auto' src={Logo} alt='logo'/>
+      <img className='my-8 md:mt-44  m mx-auto' src={Logo} alt='logo'/>
       <section className='bg-white rounded-t-2xl p-8 md:w-730 md:mx-auto md:flex md:flex-row md:justify-between md:mt-16 lg:w-920 lg:h-481  lg:py-9'>
         <article className='md:w-300 lg:w-379'>
           {billError && <p className='absolute mini:left-48 smaller:left-60 left-72  md:left-72  lg:left-576  text-orange-500'>Can't be zero</p>}

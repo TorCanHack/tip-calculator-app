@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/TorCanHack/tip-calculator-app)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://torcanhack.github.io/tip-calculator-app/)
 
 ## My process
 
@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-The Tip Calculator gives the users the option of using their own custom percentage instead of the options provided by default. I thought of the smoothest and cleanest way to achieve this and opted for using an `<input/>` tag that automatically updates as the user types in the custom percentage. To achieve this goal i made use of the `useEffect` hook since this hooks only renders a specific section of the App. This is the code i used to achieve this:
+The Tip Calculator gives the users the option of using their own custom percentage instead of the options provided by default. I thought of the smoothest and cleanest way to achieve this and opted for using an `<input/>` tag that automatically updates as the user types in the custom percentage. To achieve this goal i made use of the `useEffect` hook since this hooks only renders a specific section of the App, optimizinf performance and keeping the code clean. This is the code i used to achieve this:
 
 ````js
   useEffect(() => {

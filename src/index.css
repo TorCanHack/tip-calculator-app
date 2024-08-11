@@ -553,6 +553,10 @@ video {
   bottom: 4rem;
 }
 
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
 .bottom-8 {
   bottom: 2rem;
 }
@@ -561,22 +565,14 @@ video {
   left: 1rem;
 }
 
-.bottom-3 {
-  bottom: 0.75rem;
-}
-
-.bottom-2 {
-  bottom: 0.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .my-4 {
@@ -584,9 +580,9 @@ video {
   margin-bottom: 1rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-4 {
@@ -595,14 +591,6 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
-}
-
-.-mt-2 {
-  margin-top: -0.5rem;
-}
-
-.-mt-8 {
-  margin-top: -2rem;
 }
 
 .flex {
@@ -649,16 +637,12 @@ video {
   border-radius: 1rem;
 }
 
-.rounded-md {
-  border-radius: 0.375rem;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
 }
 
 .rounded-t-2xl {
@@ -666,8 +650,13 @@ video {
   border-top-right-radius: 1rem;
 }
 
-.border {
-  border-width: 1px;
+.border-t {
+  border-top-width: 1px;
+}
+
+.bg-fadeCyan {
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 104 109 / var(--tw-bg-opacity));
 }
 
 .bg-lightGrayishCyan {
@@ -680,6 +669,11 @@ video {
   background-color: rgb(197 228 231 / var(--tw-bg-opacity));
 }
 
+.bg-strongCyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(172 67% 45% / var(--tw-bg-opacity));
+}
+
 .bg-veryDarkCyan {
   --tw-bg-opacity: 1;
   background-color: hsl(183 100% 15% / var(--tw-bg-opacity));
@@ -688,11 +682,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-strongCyan {
-  --tw-bg-opacity: 1;
-  background-color: hsl(172 67% 45% / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -726,13 +715,13 @@ video {
   line-height: 2rem;
 }
 
+.text-32 {
+  font-size: 2rem;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-32 {
-  font-size: 2rem;
 }
 
 .font-bold {
@@ -754,6 +743,11 @@ video {
   color: hsl(184 14% 56% / var(--tw-text-opacity));
 }
 
+.text-strongCyan {
+  --tw-text-opacity: 1;
+  color: hsl(172 67% 45% / var(--tw-text-opacity));
+}
+
 .text-veryDarkCyan {
   --tw-text-opacity: 1;
   color: hsl(183 100% 15% / var(--tw-text-opacity));
@@ -764,7 +758,117 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-strongCyan {
-  --tw-text-opacity: 1;
-  color: hsl(172 67% 45% / var(--tw-text-opacity));
+@media (min-width: 768px) {
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .md\:mt-44 {
+    margin-top: 11rem;
+  }
+
+  .md\:mt-48 {
+    margin-top: 12rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:w-300 {
+    width: 18.75rem;
+  }
+
+  .md\:w-730 {
+    width: 45.625rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:bg-mainCyan {
+    --tw-bg-opacity: 1;
+    background-color: rgb(197 228 231 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:my-8 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .lg\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .lg\:mt-36 {
+    margin-top: 9rem;
+  }
+
+  .lg\:mt-32 {
+    margin-top: 8rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:h-481 {
+    height: 30.063rem;
+  }
+
+  .lg\:w-379 {
+    width: 23.688rem;
+  }
+
+  .lg\:w-413 {
+    width: 25.813rem;
+  }
+
+  .lg\:w-920 {
+    width: 57.5rem;
+  }
+
+  .lg\:w-117 {
+    width: 7.313rem;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .lg\:py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
 }

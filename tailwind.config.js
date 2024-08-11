@@ -16,13 +16,25 @@ module.exports = {
         lightGrayishCyan: 'hsl(189, 41%, 97%)',
         strongCyan: 'hsl(172, 67%, 45%)',
         veryDarkCyan: 'hsl(183, 100%, 15%)',
-        veryLightCyan: 'hsl(189, 41%, 97%)'
+        veryLightCyan: 'hsl(189, 41%, 97%)',
+        fadeCyan: '#0D686D'
       },
       fontFamily: {
         spaceMono: 'Space Mono'
       },
       fontSize: {
         32: '2rem'
+      },
+      height: {
+        481: '30.063rem'
+      },
+      width: {
+        117: '7.313rem',
+        300: '18.75rem',
+        379: '23.688rem',
+        413: '25.813rem',
+        730: '45.625rem',
+        920: '57.5rem'
       }
     },
   },

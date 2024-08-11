@@ -17,7 +17,8 @@ module.exports = {
         strongCyan: 'hsl(172, 67%, 45%)',
         veryDarkCyan: 'hsl(183, 100%, 15%)',
         veryLightCyan: 'hsl(189, 41%, 97%)',
-        fadeCyan: '#0D686D'
+        fadeCyan: '#0D686D',
+        hoverCyan: '#26C2AE'
       },
       fontFamily: {
         spaceMono: 'Space Mono'
@@ -27,6 +28,20 @@ module.exports = {
       },
       height: {
         481: '30.063rem'
+      },
+      inset: {
+        528: '33rem',
+        576: '36rem',
+        736: '46rem',
+        724: '45.3rem',
+
+        
+      },
+
+      screens: {
+        mini: {'raw': '(max-width: 320px)'},
+        smaller: {'raw': '(max-width: 384px)'}
+
       },
       width: {
         117: '7.313rem',
